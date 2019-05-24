@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HACommonLibrary_Example' do
+  pod 'HACommonLibrary', :path => '../'
+
+  target 'HACommonLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
