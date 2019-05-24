@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import HACommonLibrary
 
 class ViewController: UIViewController {
 
