@@ -1,0 +1,33 @@
+{
+  "name": "HACommonLibrary",
+  "version": "1.0.1",
+  "summary": "Geofire JS -> Swift",
+  "swift_versions": "4.2",
+  "description": "TODO: This is a basic replica of what the Geofire js repo does. I will add features as I go.",
+  "homepage": "https://github.com/dangell7/HACommonLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dangell7": "denisangell7@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dangell7/HACommonLibrary.git",
+    "tag": "1.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HACommonLibrary/Classes/**/*",
+  "static_framework": true,
+  "dependencies": {
+    "Firebase/Core": [
+
+    ],
+    "Firebase/Firestore": [
+
+    ]
+  },
+  "swift_version": "4.2"
+}

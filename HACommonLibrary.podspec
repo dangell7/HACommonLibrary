@@ -29,7 +29,7 @@ TODO: This is a basic replica of what the Geofire js repo does. I will add featu
   s.source           = { :git => 'https://github.com/dangell7/HACommonLibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'HACommonLibrary/Classes/**/*'
   
@@ -39,5 +39,8 @@ TODO: This is a basic replica of what the Geofire js repo does. I will add featu
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.static_framework = true
+  s.dependency 'Firebase/Core'
+  s.dependency 'Firebase/Firestore'
 end
